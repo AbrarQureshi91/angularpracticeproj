@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'fproject';
+  title = 'Angular Full Course ';
+  getName(name:any){
+
+    alert("Abrar")
+  }
+  getData()
+  {
+    alert('Hy Abrar')
+  }
+  show=false
+  color="red";
+  
 }
